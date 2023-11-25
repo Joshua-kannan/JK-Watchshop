@@ -62,26 +62,26 @@ export default async function ProductPge({
             <div className="mb-4">
               <div className="flex items-end gap-2">
                 <span className="text-xl font-bold text-gray-800 md:text-2xl">
-                  ${data.price}
+                ₹{data.price}
                 </span>
                 <span className="mb-0.5 text-red-500 line-through">
-                  ${data.price + 30}
+                ₹{data.price + 2500}
                 </span>
               </div>
 
               <span className="text-sm text-gray-500">
-                Incl. Vat plus shipping
+                Incl. GST plus shipping
               </span>
             </div>
 
             <div className="mb-6 flex items-center gap-2 text-gray-500">
               <Truck className="w-6 h-6" />
-              <span className="text-sm">2-4 Day Shipping</span>
+              <span className="text-sm">3-5 Day Shipping</span>
             </div>
 
             <div className="flex gap-2.5">
               <AddToBag
-                currency="USD"
+                currency="INR"
                 description={data.description}
                 image={data.images[0]}
                 name={data.name}
@@ -90,7 +90,7 @@ export default async function ProductPge({
                 price_id={data.price_id}
               />
               <CheckoutNow
-                currency="USD"
+                currency="INR"
                 description={data.description}
                 image={data.images[0]}
                 name={data.name}
