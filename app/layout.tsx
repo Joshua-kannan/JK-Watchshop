@@ -8,7 +8,7 @@ import ShoppingCartModal from "./components/ShoppingCartModal";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Jk Store",
+  title: "Jk Watch Shop",
   description: "Created by Joshua Kannan",
 };
 
