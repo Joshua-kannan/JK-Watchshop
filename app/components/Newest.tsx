@@ -3,6 +3,7 @@ import { simplifiedProduct } from "../interface";
 import { client } from "../lib/sanity";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import AllProducts from "./All"; 
 
 async function getData() {
   const query = `*[_type == "product"][0...4] | order(_createdAt desc) {
@@ -31,7 +32,10 @@ export default async function Newest() {
           </h2>
 
           <Link className="text-primary flex items-center gap-x-1" href="/all">
-            
+            See All{" "}
+            <span>
+              <ArrowRight />
+            </span>
           </Link>
         </div>
 
