@@ -7,7 +7,7 @@ const Footer = () => {
           <div className="flex justify-between items-center">
             <div>
               <p className="text-sm">&copy; {new Date().getFullYear()} Jk Watch Shop.</p>
-              <p className="text-sm">Explore my meticulously crafted portfolio, showcasing a cutting-edge ecommerce demo. Developed with Next.js 14 for dynamic frontend, Shadcn UI for refined styling, and empowered by Sanity.io for streamlined content management. Integrating Stripe ensures secure transactions, reflecting a commitment to excellence in both design and technology. <br /> Dive into sophistication and functionality! 🚀💼</p>
+              <p className="text-sm">Explore my meticulously crafted portfolio, showcasing a cutting-edge E-commerce demo. Developed with Next.js 14 for dynamic frontend, Shadcn UI for refined styling, and empowered by Sanity.io for streamlined content management. Integrating Stripe ensures secure transactions, reflecting a commitment to excellence in both design and technology. <br /> Dive into sophistication and functionality! 🚀💼</p>
             </div>
             {/* Add more footer links or content here */}
           </div>
