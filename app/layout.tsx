@@ -1,11 +1,10 @@
-// app/layout.tsx
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import CartProvider from "./components/Providers";
 import Navbar from "./components/Navbar";
 import ShoppingCartModal from "./components/ShoppingCartModal";
-import Footer from "./components/Footer"; // Make sure to adjust the import path
+import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 

@@ -1,5 +1,3 @@
-// app/components/Footer.tsx
-
 const Footer = () => {
     return (
       <footer className="bg-gray-800 text-white mt-10 border-t">
@@ -9,7 +7,7 @@ const Footer = () => {
               <p className="text-sm">&copy; {new Date().getFullYear()} Jk Watch Shop.</p>
               <p className="text-sm">Explore my meticulously crafted portfolio, showcasing a cutting-edge E-commerce demo. Developed with Next.js 14 for dynamic frontend, Shadcn UI for refined styling, and empowered by Sanity.io for streamlined content management. Integrating Stripe ensures secure transactions, reflecting a commitment to excellence in both design and technology. <br /> Dive into sophistication and functionality! 🚀💼</p>
             </div>
-            {/* Add more footer links or content here */}
+            {}
           </div>
         </div>
       </footer>
